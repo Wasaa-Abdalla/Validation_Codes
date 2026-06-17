@@ -8,9 +8,9 @@ receipts = {
     "8DEB11A545EE76E": {
         "code": "8DEB11A545EE76E",
         "description": "BUSINESS PERMIT BILL FOR YEAR-2026, OWNER :",
-        "document_date": "2026-05-13 18:10:02",
+        "document_date": "2026-06-16 18:10:02",
         "generated_by": "REHEMA OMAR",
-        "amount": "33900.00",
+        "amount": "1000000.00",
         "issued_to": "BUSINESS PERMIT BILL FOR YEAR-2026, OWNER :",
         "sub_county": "",
         "ward": "",

@@ -3,7 +3,7 @@ import { QRCodeCanvas } from "qrcode.react";
 
 export default function QrGenerator() {
   const [code, setCode] = useState("");
-  const url = code ? `https://epay-n90g.onrender.com//validate/${code}` : "";
+  const url = code ? `https://epay-n90g.onrender.com/validate/${code}` : "";
 
   return (
     <div className="flex flex-col items-center p-10">
