@@ -20,14 +20,14 @@ export default function ValidationPage() {
 
         {/* Page Title */}
         <div className="p-8 text-center">
-          <h1 className="text-5xl font-bold text-gray-800">
+          <h1 className="text-4xl font-bold text-gray-800">
             QR Code Validation
           </h1>
         </div>
 
         {/* VALID Banner */}
         <div className="py-10 text-center">
-          <h2 className="text-6xl font-extrabold text-green-600">
+          <h2 className="text-4xl font-extrabold text-green-600">
             VALID
           </h2>
         </div>
