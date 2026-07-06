@@ -26,7 +26,18 @@ receipts = {
         "sub_county": "Kwale",
         "ward": "Ward 5",
         "zone": "Zone A"
-    }
+    },
+    "8DE6D728FF73D97": {
+        "code": "8DE6D728FF73D97",
+        "description": "Sand & Stone Cess",
+        "document_date": "2026-06-27 15:10:02",
+        "generated_by": "MARIAM BAYA",
+        "amount": "131400.00",
+        "issued_to": "",
+        "sub_county": "",
+        "ward": "",
+        "zone": ""
+    },
 }
 
 @app.route("/api/validate/<code>")
