@@ -33,7 +33,7 @@ receipts = {
         "document_date": "2026-06-27 15:10:02",
         "generated_by": "MARIAM BAYA",
         "amount": "131400.00",
-        "issued_to": "",
+        "issued_to": "Sand & Stone Cess",
         "sub_county": "",
         "ward": "",
         "zone": ""

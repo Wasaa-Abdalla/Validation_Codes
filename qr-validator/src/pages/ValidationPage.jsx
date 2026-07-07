@@ -52,14 +52,15 @@ export default function ValidationPage() {
             <tr>
               <td className="border p-3 font-bold text-gray-700">Document Date</td>
               <td className="border p-3 text-sky-500">
-                {new Date(receipt.document_date).toLocaleString("en-GB", {
+                {`${new Date(receipt.document_date).toLocaleDateString("en-GB", {
                   day: "2-digit",
                   month: "2-digit",
                   year: "numeric",
+                })} ${new Date(receipt.document_date).toLocaleTimeString("en-GB", {
                   hour: "2-digit",
                   minute: "2-digit",
                   second: "2-digit",
-                })}
+                })}`}
               </td>
             </tr>
             <tr>
