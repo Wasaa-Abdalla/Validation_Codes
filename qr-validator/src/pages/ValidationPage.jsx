@@ -1,5 +1,6 @@
 import { useParams } from "react-router-dom";
 import { useEffect, useState } from "react";
+import "./ValidationPage.css";
 
 function formatDocumentDate(value) {
   // Receipt timestamps are local wall-clock times; preserve them on every device.
@@ -61,41 +62,31 @@ function ValidationPage() {
     ["Zone", receipt.zone],
   ] : [];
 
+  if (!current) return null;
+
   return (
-    <div className="min-h-screen bg-gray-100 flex justify-center py-8">
-      <div className="bg-white w-full max-w-lg shadow-lg border border-gray-300">
-        <div className="p-8 text-center">
-          <h1 className="text-5xl font-bold text-gray-800">QR Code Validation</h1>
-        </div>
-        <div className="py-10 text-center" aria-live="polite">
-          {receipt ? (
-            <h2 className="text-6xl font-extrabold text-green-600">VALID</h2>
-          ) : current?.error ? (
-            <p className="px-4 font-bold text-red-600" role="alert">{current.error}</p>
-          ) : (
-            <p className="text-gray-700">Loading receipt details…</p>
-          )}
-        </div>
-        {receipt && (
-          <table className="w-full border-collapse">
-            <thead>
-              <tr>
-                <th className="border bg-gray-100 p-3 text-left">Attribute</th>
-                <th className="border bg-gray-100 p-3 text-left">Value/Details</th>
+    <main className="receipt-validation">
+      <header className="receipt-validation-header">
+        <h1>QR Code Validation</h1>
+        {receipt && <h2>VALID</h2>}
+      </header>
+      {current.error ? (
+        <p className="receipt-validation-error" role="alert">{current.error}</p>
+      ) : (
+        <table className="receipt-validation-table">
+          <colgroup><col className="receipt-validation-label-column" /><col /></colgroup>
+          <thead><tr><th scope="col">Attribute</th><th scope="col">Value/Details</th></tr></thead>
+          <tbody>
+            {rows.map(([label, value]) => (
+              <tr key={label}>
+                <th scope="row">{label}</th>
+                <td>{value ?? ""}</td>
               </tr>
-            </thead>
-            <tbody>
-              {rows.map(([label, value]) => (
-                <tr key={label}>
-                  <td className="border p-3 font-bold text-gray-700">{label}</td>
-                  <td className="border p-3 text-sky-500">{value ?? ""}</td>
-                </tr>
-              ))}
-            </tbody>
-          </table>
-        )}
-      </div>
-    </div>
+            ))}
+          </tbody>
+        </table>
+      )}
+    </main>
   );
 }
 

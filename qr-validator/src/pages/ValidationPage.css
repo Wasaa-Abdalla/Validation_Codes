@@ -1,0 +1,56 @@
+.receipt-validation {
+  width: 100%;
+  max-width: 768px;
+  min-height: 100vh;
+  margin: 0 auto;
+  padding-bottom: 32px;
+  background: #fff;
+  color: #333;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.receipt-validation-header {
+  height: 240px;
+  padding-top: 18px;
+  text-align: center;
+}
+.receipt-validation-header h1 {
+  margin: 0;
+  font-size: clamp(28px, 10vw, 40px);
+  font-weight: 700;
+  line-height: 48px;
+}
+.receipt-validation-header h2 {
+  margin: 52px 0 0;
+  color: #008000;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+}
+.receipt-validation-table {
+  width: 95%;
+  border-collapse: collapse;
+  table-layout: fixed;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: left;
+}
+.receipt-validation-label-column { width: 26%; }
+.receipt-validation-table th,
+.receipt-validation-table td {
+  padding: 8px;
+  border: 1px solid #e3e3e3;
+  vertical-align: top;
+  overflow-wrap: anywhere;
+}
+.receipt-validation-table th { font-weight: 700; }
+.receipt-validation-table thead th {
+  background: #fff;
+  border-bottom-width: 2px;
+}
+.receipt-validation-table tbody tr:nth-child(odd) { background: #f8f8f8; }
+.receipt-validation-table td { color: #4996c5; }
+.receipt-validation-error {
+  padding: 0 16px;
+  color: #b91c1c;
+  text-align: center;
+}
