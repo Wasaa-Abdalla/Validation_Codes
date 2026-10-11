@@ -38,7 +38,7 @@ receipts = {
         "ward": "",
         "zone": ""
     },
-    "8DF1281867B6B1F": {
+    "ADEXYKWPLVA": {
             "code": "ADEXYKWPLVA",
             "description": "ADVERT CHARGE FOR CLIENT",
             "document_date": "2026-09-14 15:10:02",
