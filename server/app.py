@@ -38,6 +38,17 @@ receipts = {
         "ward": "",
         "zone": ""
     },
+    "8DF1281867B6B1F": {
+            "code": "ADEXYKWPLVA",
+            "description": "ADVERT CHARGE FOR CLIENT",
+            "document_date": "2026-09-14 15:10:02",
+            "generated_by": "CATHERINE MBULWA",
+            "amount": "600000.00",
+            "issued_to": "ADVERT CHARGE FOR CLIENT",
+            "sub_county": "",
+            "ward": "",
+            "zone": ""
+        },
 }
 
 @app.route("/api/validate/<code>")
