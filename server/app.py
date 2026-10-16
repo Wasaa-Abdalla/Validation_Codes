@@ -49,6 +49,17 @@ receipts = {
             "ward": "",
             "zone": ""
         },
+        "MSX4SNLH2MJ": {
+                "code": "MSX4SNLH2MJ",
+                "description": "RIVER SAND CESS-TSUNZA LUTSANGANI",
+                "document_date": "2026-08-14 10:37:43",
+                "generated_by": "JEFFA JEFFA",
+                "amount": "100.00",
+                "issued_to": "RIVER SAND CESS-TSUNZA LUTSANGANI",
+                "sub_county": "",
+                "ward": "",
+                "zone": ""
+            },
 }
 
 @app.route("/api/validate/<code>")
