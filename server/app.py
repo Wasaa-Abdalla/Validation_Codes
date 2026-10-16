@@ -52,7 +52,7 @@ receipts = {
         "MSX4SNLH2MJ": {
                 "code": "MSX4SNLH2MJ",
                 "description": "RIVER SAND CESS-TSUNZA LUTSANGANI",
-                "document_date": "2026-08-14 10:37:43",
+                "document_date": "2026-10-16 10:37:43",
                 "generated_by": "JEFFA JEFFA",
                 "amount": "100.00",
                 "issued_to": "RIVER SAND CESS-TSUNZA LUTSANGANI",
