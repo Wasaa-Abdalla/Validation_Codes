@@ -51,11 +51,11 @@ receipts = {
         },
         "MSX4SNLH2MJ": {
                 "code": "MSX4SNLH2MJ",
-                "description": "RIVER SAND CESS-TSUNZA LUTSANGANI",
-                "document_date": "2026-10-16 10:37:43",
+                "description": "100 Trips-Cess for Marrum Extraction from gwesheni site Kwale County for the period 1st to 27th August 2026",
+                "document_date": "2026-10-28 10:37:43",
                 "generated_by": "JEFFA JEFFA",
-                "amount": "100.00",
-                "issued_to": "RIVER SAND CESS-TSUNZA LUTSANGANI",
+                "amount": "100000.00",
+                "issued_to": "100 Trips-Cess for Marrum Extraction from gwesheni site Kwale County for the period 1st to 27th August 2026",
                 "sub_county": "",
                 "ward": "",
                 "zone": ""
