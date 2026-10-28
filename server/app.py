@@ -51,11 +51,11 @@ receipts = {
         },
         "MSX4SNLH2MJ": {
                 "code": "MSX4SNLH2MJ",
-                "description": "100 Trips-Cess for Marrum Extraction from gwesheni site Kwale County for the period 1st to 27th August 2026",
+                "description": "100 Trips-Cess for Marrum Extraction from gwesheni site Kwale County for the period 1st to 28th October 2026",
                 "document_date": "2026-10-28 10:37:43",
                 "generated_by": "JEFFA JEFFA",
                 "amount": "100000.00",
-                "issued_to": "100 Trips-Cess for Marrum Extraction from gwesheni site Kwale County for the period 1st to 27th August 2026",
+                "issued_to": "100 Trips-Cess for Marrum Extraction from gwesheni site Kwale County for the period 1st to 28th October 2026",
                 "sub_county": "",
                 "ward": "",
                 "zone": ""
