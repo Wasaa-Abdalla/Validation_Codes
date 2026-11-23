@@ -76,7 +76,7 @@ receipts = {
                                     "description": "RIVER SAND CESS-TSUNZA LUTSANGANI Payment reference's MPESA - UKGKO3PIO7,",
                                     "document_date": "2026-11-16 16:37:43",
                                     "generated_by": "JEFFA JEFFA",
-                                    "amount": "1366600.00",
+                                    "amount": "1366200.00",
                                     "issued_to": "RIVER SAND CESS-TSUNZA LUTSANGANI Payment reference's MPESA - UKGKO3PIO7,",
                                     "sub_county": "",
                                     "ward": "",
