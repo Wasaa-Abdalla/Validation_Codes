@@ -71,6 +71,17 @@ receipts = {
                             "ward": "",
                             "zone": ""
                         },
+        "MSX8SHNL3JK": {
+                                    "code": "MSX8SHNL4HL",
+                                    "description": "RIVER SAND CESS-TSUNZA LUTSANGANI Payment reference's MPESA - UKGKO3PIO7,",
+                                    "document_date": "2026-11-16 16:37:43",
+                                    "generated_by": "JEFFA JEFFA",
+                                    "amount": "1366200.00",
+                                    "issued_to": "RIVER SAND CESS-TSUNZA LUTSANGANI Payment reference's MPESA - UKGKO3PIO7,",
+                                    "sub_county": "",
+                                    "ward": "",
+                                    "zone": ""
+                                },
 }
 
 @app.route("/api/validate/<code>")
