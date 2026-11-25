@@ -84,11 +84,11 @@ receipts = {
                                 },
             "MSX8SHNL7XV": {
                                     "code": "MSX8SHNL7XV",
-                                    "description": "RIVER SAND CESS-TSUNZA LUTSANGANI Payment reference's MPESA - UKGBO3OVZX,",
+                                    "description": "Quarry Dust Cess Lutsangani Gandi Payment reference's MPESA -UKGBO3OVZX",
                                     "document_date": "2026-09-02 12:37:43",
                                     "generated_by": "JEFFA JEFFA",
                                     "amount": "467200.00",
-                                    "issued_to": "RIVER SAND CESS-TSUNZA LUTSANGANI Payment reference's MPESA - UKGBO3OVZX,",
+                                    "issued_to": "Quarry Dust Cess Lutsangani Gandi Payment reference's MPESA -UKGBO3OVZX",
                                     "sub_county": "",
                                     "ward": "",
                                     "zone": ""
