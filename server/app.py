@@ -98,7 +98,7 @@ receipts = {
                                             "description": "Quarry Dust Cess Lutsangani Gandi Payment reference's MPESA -UKG9M3RYQG",
                                             "document_date": "2026-10-05 15:20:25",
                                             "generated_by": "JEFFA JEFFA",
-                                            "amount": "613000.00",
+                                            "amount": "599000.00",
                                             "issued_to": "Quarry Dust Cess Lutsangani Gandi Payment reference's MPESA -UKG9M3RYQG",
                                             "sub_county": "",
                                             "ward": "",
