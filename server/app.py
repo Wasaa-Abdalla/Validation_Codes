@@ -93,6 +93,28 @@ receipts = {
                                     "ward": "",
                                     "zone": ""
                                 },
+        "MSX9SHMG9ZF": {
+                                            "code": "MSX9SHMG9ZF",
+                                            "description": "Quarry Dust Cess Lutsangani Gandi Payment reference's MPESA -UKG9M3RYQG",
+                                            "document_date": "2026-10-05 15:20:25",
+                                            "generated_by": "JEFFA JEFFA",
+                                            "amount": "613000.00",
+                                            "issued_to": "Quarry Dust Cess Lutsangani Gandi Payment reference's MPESA -UKG9M3RYQG",
+                                            "sub_county": "",
+                                            "ward": "",
+                                            "zone": ""
+                                        },
+        "MSX9SHMH2MJ": {
+                                                    "code": "MSX9SHMH2MJ",
+                                                    "description": "Quarry Dust Cess Lutsangani Gandi Payment reference's MPESA -UKGKO3YBJ6",
+                                                    "document_date": "2026-11-04 11:40:35",
+                                                    "generated_by": "JEFFA JEFFA",
+                                                    "amount": "914000.00",
+                                                    "issued_to": "Quarry Dust Cess Lutsangani Gandi Payment reference's MPESA -UKGKO3YBJ6",
+                                                    "sub_county": "",
+                                                    "ward": "",
+                                                    "zone": ""
+                                                },
 }
 
 @app.route("/api/validate/<code>")
